@@ -1,0 +1,67 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="resourses/sign.css">
+    <link rel="stylesheet" href="vendors/font/fontawesome-free-5.11.2-web/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="exit-icon">
+            <ul>
+                <li><a href="try.html"><i class="fas fa-times"></i></a></li>
+            </ul>
+        </div>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="btn-login" onclick="login()" >Log In</button>
+                <button type="button" class="btn-login" onclick="register()" >Register</button>
+            </div>
+            <div class="socail-icon">
+                <img src="/image/logo/facebook.png" alt="">
+                <img src="/image/logo/intagram.jpg" alt="">
+                <img src="/image/logo/google.jpg" alt="">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Nhập iD" required>
+                <input type="text" class="input-field" placeholder="Nhập Password" required>
+                <input type="checkbox" class="check-box" > <span>Nhớ Mật Khẩu Của Bạn</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="Register" class="input-group">
+                <input type="text" class="input-field" placeholder="Nhập iD" required>
+                <input type="email" class="input-field" placeholder="Nhập Email" required>
+                <input type="text" class="input-field" placeholder="Nhập Password" required>
+                <input type="checkbox" class="check-box" > <span>Đồng ý với điều khoản của Web</span>
+                <button type="submit" class="submit-btn">Rigister</button>
+            </form>
+        </div>
+       
+    </div>
+    <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("Register")
+        var z = document.getElementById("btn")
+        function register(){
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login(){
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0px"
+        }
+
+    </script>
+</body>
+
+</html>
+
+</html>
