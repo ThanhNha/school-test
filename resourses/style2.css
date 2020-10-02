@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgb(18,60,105);
+    background-color:rgb(238,226,220) ;
+    
+}
+.container{
+    background-image: linear-gradient(45deg,rgb(238,226,220,0.85),rgb(237,199,183,0.3)), url("../image/6a2fc40e-9cbd-4bda-b462-cb6826fe6c79.jpg" );
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin:50px;
+    
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all .3s;
+    color: #427388;
+}
+.menu ul li :hover{
+    background-color: hsl(208, 100%, 97%,0.2);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+    outline: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.active{
+color: #123C69 !important;
+
+}
+.signup-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    color: #AC3B61 ;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,rgb(238,226,220,0.85),rgb(237,199,183,0.3)),radial-gradient(circle at top left,#ebc4e5,#edc7b7);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    transition:all .3s;
+    
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 22px;
+    transition:all .5s;
+}
+
+.row{
+    margin: 0% auto;
+    max-width: 1140px;
+}
+.row{
+    position: absolute;
+    transform: translate(20%,110%);
+
+}
+.main-text{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+}
+.row a{
+    
+    border: solid 1px !important;
+    border-color: rgba(172,59,97, 0.15) !important;
+    border-radius: 3em;
+    color: rgb(#edc7b7)!important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.6em;
+    font-weight: bold;
+    height: calc(4.75em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 4.75em;
+    outline: 0;
+    padding: 0 3.75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-right: 20px;
+    transition: all .5s;
+}
+
+.btn:hover{
+    background-color: hsl(208, 100%, 97%,0.2);
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+.scocial-icon{
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+}
+.scocial-icon ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+.scocial-icon ul li a{
+text-decoration: none; 
+border-radius : 50%;
+border: 1px solid;
+padding: 5px;
+display: block;
+color: #999;
+}
